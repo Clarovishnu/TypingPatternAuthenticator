@@ -1,0 +1,1 @@
+{"user_id": "3", "prompt_text": "the quick brown fox jumps over the lazy dog", "typed_text": "suddenly the fox steps on the dogs tail", "events": [{"key": "Control", "type": "down", "t": 308977.6000000001}, {"key": "v", "type": "down", "t": 309387.7999999998}, {"key": "v", "type": "up", "t": 309551.6999999997}, {"key": "Control", "type": "up", "t": 309728.1999999997}]}
