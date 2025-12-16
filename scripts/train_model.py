@@ -41,4 +41,4 @@ os.makedirs('models', exist_ok=True)
 joblib.dump(svm_model, 'models/svm_model.pkl')
 joblib.dump(scaler, 'models/scaler.pkl')
 
-print("\n✅ Model and Scaler saved to 'models/' folder.")
+print("\n Model and Scaler saved to 'models/' folder.")
