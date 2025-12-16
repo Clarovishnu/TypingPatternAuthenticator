@@ -124,7 +124,7 @@ def main():
         writer.writeheader()
         writer.writerows(rows)
 
-    print(f"✅ Extracted {len(rows)} samples to {OUT_FILE}")
+    print(f" Extracted {len(rows)} samples to {OUT_FILE}")
 
 
 # --------------------------------------------------------------------
