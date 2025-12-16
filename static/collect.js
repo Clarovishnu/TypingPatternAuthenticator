@@ -52,10 +52,10 @@ function submitData() {
       const predictData = await predictRes.json();
       if (predictData.predicted_user) {
         document.getElementById("result").innerText =
-          `🎯 Predicted User: ${predictData.predicted_user}`;
+          ` Predicted User: ${predictData.predicted_user}`;
       } else {
         document.getElementById("result").innerText =
-          `⚠️ ${predictData.error || "Prediction failed."}`;
+          ` ${predictData.error || "Prediction failed."}`;
       }
 
       // reset
@@ -65,6 +65,6 @@ function submitData() {
     .catch((err) => {
       console.error("Error:", err);
       document.getElementById("result").innerText =
-        "❌ Something went wrong.";
+       " Something went wrong.";
     });
 }
