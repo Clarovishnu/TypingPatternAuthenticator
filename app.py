@@ -21,11 +21,11 @@ scaler_path = os.path.join('models', 'scaler.pkl')
 if os.path.exists(model_path) and os.path.exists(scaler_path):
     model = joblib.load(model_path)
     scaler = joblib.load(scaler_path)
-    print("✅ Model and Scaler loaded successfully!")
+    print(" Model and Scaler loaded successfully!")
 else:
     model = None
     scaler = None
-    print("⚠️ Model or Scaler not found. Please train the model first!")
+    print(" Model or Scaler not found. Please train the model first!")
 
 # --------------------------
 # Home Page Route
@@ -79,7 +79,7 @@ def predict_user():
         return jsonify({"predicted_user": predicted_user})
 
     except Exception as e:
-        print(f"⚠️ Prediction error: {e}")
+        print(f" Prediction error: {e}")
         return jsonify({"error": str(e)}), 400
 
 # --------------------------
